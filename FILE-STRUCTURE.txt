@@ -1,0 +1,100 @@
+╔══════════════════════════════════════════════════════════════╗
+║          SIWS COLLEGE - INFINITYFREE DEPLOYMENT             ║
+║                    FILE STRUCTURE                            ║
+╚══════════════════════════════════════════════════════════════╝
+
+infinityfree-deploy/
+│
+├── 📄 README.md                    (Detailed deployment guide)
+├── 📄 QUICK-START.txt              (3-step quick start guide)
+├── 📄 DEPLOYMENT-CHECKLIST.md      (Complete checklist)
+├── 📄 FILE-STRUCTURE.txt           (This file)
+│
+└── 📁 htdocs/                      ⭐ UPLOAD THIS FOLDER'S CONTENTS ⭐
+    │
+    ├── 📄 index.php                (Homepage - Main entry point)
+    ├── 📄 .htaccess                (Server configuration)
+    │
+    ├── 📁 css/                     (Stylesheets)
+    │   ├── styles.css              (Main styles)
+    │   └── chatbot.css             (Chatbot styles)
+    │
+    ├── 📁 js/                      (JavaScript files)
+    │   ├── script.js               (Main scripts)
+    │   └── chatbot.js              (Chatbot functionality)
+    │
+    ├── 📁 images/                  (All website images - 40 files)
+    │   ├── siws-logo.png
+    │   ├── home-banner.jpg
+    │   ├── Library.jpg
+    │   ├── lab.jpeg
+    │   ├── campus-courtyard.jpg
+    │   ├── bms.png
+    │   ├── bcom.jpg
+    │   ├── bscit.jpg
+    │   ├── bsccs.jpg
+    │   ├── announcements.png
+    │   ├── graduation-ceremony.jpg
+    │   └── ... (31 more images)
+    │
+    ├── 📁 includes/                (Shared PHP components)
+    │   ├── header.php              (Navigation & header)
+    │   └── footer.php              (Footer & scripts)
+    │
+    └── 📁 pages/                   (All website pages - 15 files)
+        ├── about-us.php            (About page)
+        ├── accessibility.php       (Accessibility info)
+        ├── admission.php           (Admissions)
+        ├── computer-science.php    (CS department)
+        ├── computer-science-bootstrap.php
+        ├── contact.php             (Contact form)
+        ├── founder-trustees.php    (Founders info)
+        ├── information-technology.php (IT department)
+        ├── library.php             (Library info)
+        ├── library-enhanced.php
+        ├── news-events.php         (News & events)
+        ├── photo-gallery.php       (Photo gallery)
+        ├── privacy.php             (Privacy policy)
+        ├── programs.php            (Academic programs)
+        └── terms.php               (Terms of service)
+
+═══════════════════════════════════════════════════════════════
+
+📊 STATISTICS:
+   • Total Files: 63
+   • PHP Files: 18
+   • CSS Files: 2
+   • JS Files: 2
+   • Images: 40
+   • Config Files: 1 (.htaccess)
+
+═══════════════════════════════════════════════════════════════
+
+🎯 KEY FEATURES:
+   ✓ Responsive Bootstrap design
+   ✓ Dynamic PHP navigation
+   ✓ Shared header/footer system
+   ✓ Optimized for InfinityFree
+   ✓ SEO-friendly structure
+   ✓ Mobile-responsive
+   ✓ Fast loading with caching
+   ✓ Secure .htaccess configuration
+
+═══════════════════════════════════════════════════════════════
+
+🚀 DEPLOYMENT:
+   1. Upload contents of htdocs/ folder to InfinityFree
+   2. Keep folder structure intact
+   3. Test all pages after upload
+   4. Enable SSL in control panel
+
+═══════════════════════════════════════════════════════════════
+
+📝 NOTES:
+   • All paths are relative and will work on InfinityFree
+   • No database required (static PHP site)
+   • Compatible with PHP 7.4+
+   • Bootstrap 5.1.3 & Font Awesome 6.0 (CDN)
+   • Ready to run immediately after upload
+
+═══════════════════════════════════════════════════════════════

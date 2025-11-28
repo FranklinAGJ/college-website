@@ -1,0 +1,48 @@
+╔══════════════════════════════════════════════════════════════╗
+║     SIWS COLLEGE WEBSITE - INFINITYFREE QUICK START         ║
+╚══════════════════════════════════════════════════════════════╝
+
+🚀 DEPLOYMENT IN 3 SIMPLE STEPS:
+
+STEP 1: Login to InfinityFree
+   → Go to: https://infinityfree.net/
+   → Login to your control panel
+   → Click "File Manager"
+
+STEP 2: Upload Files
+   → Navigate to the "htdocs" folder
+   → Delete any default files (index.html, default.php)
+   → Upload ALL contents from "infinityfree-deploy/htdocs/" folder
+   → Wait for upload to complete
+
+STEP 3: Test Your Website
+   → Visit your website URL
+   → Example: yoursite.infinityfreeapp.com
+   → Check all pages work correctly
+
+✅ WHAT'S INCLUDED:
+   ✓ index.php (Homepage)
+   ✓ All page files (about, programs, contact, etc.)
+   ✓ CSS stylesheets
+   ✓ JavaScript files
+   ✓ All images
+   ✓ .htaccess configuration
+   ✓ Shared header and footer
+
+📁 FOLDER TO UPLOAD:
+   Upload everything inside: infinityfree-deploy/htdocs/
+
+⚠️ IMPORTANT:
+   • Upload the CONTENTS of htdocs folder, not the folder itself
+   • Keep the folder structure intact
+   • Don't rename any files or folders
+   • Make sure .htaccess file is uploaded
+
+🔧 NEED HELP?
+   • Read the detailed README.md file
+   • Visit: https://forum.infinityfree.net/
+   • Check InfinityFree knowledge base
+
+═══════════════════════════════════════════════════════════════
+Your website is ready to go live! 🎉
+═══════════════════════════════════════════════════════════════

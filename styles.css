@@ -1,0 +1,356 @@
+/* Styles for SIWS College Website */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Navigation Styles */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand img {
+    /* No transition */
+}
+
+.navbar.scrolled .navbar-brand img {
+    /* No transform */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section h1 {
+    font-weight: 800;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section p {
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Scroll Down Indicator */
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.scroll-down-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.bounce {
+    /* Animation removed */
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #2c3e50;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+section h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #3498db;
+}
+
+.text-center h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Icon Styles */
+.text-primary {
+    color: #3498db !important;
+}
+
+.fa-3x {
+    /* No transition */
+}
+
+.card:hover .fa-3x {
+    color: #e74c3c;
+}
+
+/* Background Alternating */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Animation Classes - Removed animations for stability */
+.animate-on-scroll,
+.fade-in-element,
+.slide-up-element,
+.animated {
+    /* Always visible */
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: none !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .hero-section {
+        height: auto !important;
+        min-height: 100vh;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(44, 62, 80, 0.95);
+        padding: 1rem;
+        border-radius: 10px;
+        margin-top: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem;
+    }
+
+    .card {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #3498db;
+}
+
+/* Utility Classes */
+.shadow-lg {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.rounded-lg {
+    border-radius: 15px !important;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Parallax Effect */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Additional Styles for Dynamic Elements */
+
+/* Icon Circle */
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(52, 152, 219, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card:hover .icon-circle {
+    background-color: #3498db;
+}
+
+.card:hover .icon-circle i {
+    color: white !important;
+}
+
+/* Heading Underline */
+.heading-underline {
+    width: 80px;
+    height: 3px;
+    background-color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Card Image Overlay */
+.card-img-overlay-wrapper {
+    position: relative;
+}
+
+.overlay-gradient {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Counter Animation */
+.counter {
+    font-weight: 700;
+    color: #3498db;
+}
+
+/* Navbar Transparent and Scrolled States */
+.navbar.navbar-transparent {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.navbar.navbar-transparent .navbar-brand,
+.navbar.navbar-transparent .nav-link {
+    color: white;
+}
+
+.navbar.scrolled {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Scroll Indicator Animation */
+.scroll-down-link {
+    opacity: 0.8;
+}
+
+.scroll-down-link:hover {
+    opacity: 1;
+}
+
+/* News Card Hover Effect */
+.news-card {
+    border-left: 3px solid transparent;
+}
+
+.news-card:hover {
+    border-left: 3px solid #3498db;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    /* Always visible */
+    visibility: visible;
+    /* Always visible */
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top.visible {
+    /* No change needed */
+}
+
+.back-to-top:hover {
+    background-color: #2980b9;
+}
